@@ -1,0 +1,136 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>MatiValues Quiz</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body>
+<script type="application/javascript"
+        src="questions.js">
+</script>
+<img src="logo.svg" class="logo"></img>
+<hr style="height: 10px; background: #00647f; border: 0px;">
+<h2 style="text-align:center;" id="question-number">Ładowanie...</h2>
+<p class="question" id="question-text"></p>
+<button class="button" onclick="next_question( 1.0)" style="border-bottom-right-radius: 0pt; border-bottom-left-radius: 0pt; background-color: #008208;">CAŁKOWICIE SIĘ ZGADZAM</button>
+<button class="button" onclick="next_question( 0.5)" style="border-radius: 0pt;background-color: #009e0d;">RACZEJ SIĘ ZGADZAM</button>
+<button class="button" onclick="next_question( 0.0)" style="border-radius: 0pt;background-color: #bbbbbb;">TO ZALEŻY</button>
+<button class="button" onclick="next_question(-0.5)" style="border-radius: 0pt;background-color: #e52b00;">RACZEJ SIĘ NIE ZGADZAM</button>
+<button class="button" onclick="next_question(-1.0)" style="border-top-right-radius: 0pt; border-top-left-radius: 0pt; background-color: #c40000;">CAŁKOWICIE SIĘ NIE ZGADZAM</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">WSTECZ</button>
+<button class="small_button_off" id="back_button_off">WSTECZ</button><br>
+<!-- JavaScript for the test itself -->
+<script>
+    var max_econ1, max_econ2, max_econ3, max_law1, max_law2, max_law3, max_law4, max_society1, max_society2, max_society3, max_society4, max_state1, max_state2, max_state3; // Max possible scores
+    max_econ1 = max_econ2 = max_econ3 = max_law1 = max_law2 = max_law3 = max_law4 = max_society1 = max_society2 = max_society3 = max_society4 = max_state1 = max_state2 = max_state3 = 0;
+    var econ1, econ2, econ3, law1, law2, law3, law4, society1, society2, society3, society4, state1, state2, state3; // User's scores
+    econ1 = econ2 = econ3 = law1 = law2 = law3 = law4 = society1 = society2 = society3 = society4 = state1 = state2 = state3 = 0;
+    var qn = 0; // Question number
+    var prev_answer = null;
+    init_question();
+    for (var i = 0; i < questions.length; i++) {
+        max_econ1 += Math.abs(questions[i].effect.econ1)
+		max_econ2 += Math.abs(questions[i].effect.econ2)
+		max_econ3 += Math.abs(questions[i].effect.econ3)
+		max_law1 += Math.abs(questions[i].effect.law1)
+		max_law2 += Math.abs(questions[i].effect.law2)
+		max_law3 += Math.abs(questions[i].effect.law3)
+		max_law4 += Math.abs(questions[i].effect.law4)
+		max_society1 += Math.abs(questions[i].effect.society1)
+		max_society2 += Math.abs(questions[i].effect.society2)
+		max_society3 += Math.abs(questions[i].effect.society3)
+		max_society4 += Math.abs(questions[i].effect.society4)
+		max_state1 += Math.abs(questions[i].effect.state1)		
+		max_state2 += Math.abs(questions[i].effect.state2)	
+		max_state3 += Math.abs(questions[i].effect.state3)	
+    }
+    function init_question() {
+        document.getElementById("question-text").innerHTML = questions[qn].question;
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        if (prev_answer == null) {
+            document.getElementById("back_button").style.display = 'none';
+            document.getElementById("back_button_off").style.display = 'block';
+        } else {
+            document.getElementById("back_button").style.display = 'block';
+            document.getElementById("back_button_off").style.display = 'none';
+        }
+
+    }
+
+    function next_question(mult) {
+        econ1 += mult*questions[qn].effect.econ1
+		econ2 += mult*questions[qn].effect.econ2
+		econ3 += mult*questions[qn].effect.econ3
+		law1 += mult*questions[qn].effect.law1	
+		law2 += mult*questions[qn].effect.law2
+		law3 += mult*questions[qn].effect.law3
+		law4 += mult*questions[qn].effect.law4
+		society1 += mult*questions[qn].effect.society1
+		society2 += mult*questions[qn].effect.society2
+		society3 += mult*questions[qn].effect.society3
+		society4 += mult*questions[qn].effect.society4
+		state1 += mult*questions[qn].effect.state1
+		state2 += mult*questions[qn].effect.state2
+		state3 += mult*questions[qn].effect.state3		
+        qn++;
+        prev_answer = mult;
+        if (qn < questions.length) {
+            init_question();
+        } else {
+            results();
+        }
+    }
+    function prev_question() {
+        if (prev_answer == null) {
+            return;
+        }
+        qn--;
+        econ1 -= prev_answer * questions[qn].effect.econ1;
+        econ2 -= prev_answer * questions[qn].effect.econ2;
+        econ3 -= prev_answer * questions[qn].effect.econ3;
+        law1 -= prev_answer * questions[qn].effect.law1;
+        law2 -= prev_answer * questions[qn].effect.law2;
+        law3 -= prev_answer * questions[qn].effect.law3;
+        law4 -= prev_answer * questions[qn].effect.law4;
+        society1 -= prev_answer * questions[qn].effect.society1;
+        society2 -= prev_answer * questions[qn].effect.society2;
+        society3 -= prev_answer * questions[qn].effect.society3;
+        society4 -= prev_answer * questions[qn].effect.society4;
+        state1 -= prev_answer * questions[qn].effect.state1;
+        state2 -= prev_answer * questions[qn].effect.state2;
+        state3 -= prev_answer * questions[qn].effect.state3;
+        prev_answer = null;
+        init_question();
+
+    }
+    function calc_score(score,max) {
+        return (100*(max+score)/(2*max)).toFixed(1)
+    }
+    function results() {
+        location.href = `results.html`
+            + `?a=${calc_score(econ1,max_econ1)}`
+            + `&b=${calc_score(econ2,max_econ2)}`
+            + `&c=${calc_score(econ3,max_econ3)}`
+            + `&d=${calc_score(law1,max_law1)}`
+            + `&e=${calc_score(law2,max_law2)}`
+            + `&f=${calc_score(law3,max_law3)}`
+            + `&g=${calc_score(law4,max_law4)}`
+            + `&h=${calc_score(society1,max_society1)}`
+            + `&i=${calc_score(society2,max_society2)}`
+            + `&j=${calc_score(society3,max_society3)}`
+            + `&k=${calc_score(society4,max_society4)}`
+            + `&l=${calc_score(state1,max_state1)}`
+            + `&m=${calc_score(state2,max_state2)}`
+            + `&n=${calc_score(state3,max_state3)}`
+    }
+</script>
+</body>

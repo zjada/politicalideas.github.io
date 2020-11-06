@@ -1,0 +1,459 @@
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>Wyniki testu</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+<script>
+  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
+</script>
+</head>
+<script type="application/javascript"
+        src="ideologies.js">
+</script>
+
+<body>
+<img src="logo.svg" class="logo"></img>
+<hr style="height: 10px; background: #00647f; border: 0px;">
+
+<h1>WYNIKI</h1>
+
+<h2>EKONOMIA: </h2>
+
+<h2><span class="weight-300" id="economic1-label"></span></h2>
+<div class="axis">
+    <img id="img-socjalizm" src="value_images/socjalizm.svg" height="128pt"/>
+    <div class="bar socjalizm" id="bar-socjalizm"><div class="text-wrapper" id="socjalizm"></div></div>
+    <div class="bar kapitalizm" id="bar-kapitalizm"><div class="text-wrapper" id="kapitalizm"></div></div>
+    <img id="img-kapitalizm" src="value_images/kapitalizm.svg" height="128pt"/>
+</div>
+
+<h2><span class="weight-300" id="economic2-label"></span></h2>
+<div class="axis">
+    <img id="img-regulacjonizm" src="value_images/regulacjonizm.svg" height="128pt"/>
+    <div class="bar regulacjonizm" id="bar-regulacjonizm"><div class="text-wrapper" id="regulacjonizm"></div></div>
+    <div class="bar leseferyzm" id="bar-leseferyzm"><div class="text-wrapper" id="leseferyzm"></div></div>
+    <img id="img-leseferyzm" src="value_images/leseferyzm.svg" height="128pt"/>
+</div>
+
+<h2><span class="weight-300" id="economic3-label"></span></h2>
+<div class="axis">
+    <img id="img-protekcjonizm" src="value_images/protekcjonizm.svg" height="128pt"/>
+    <div class="bar protekcjonizm" id="bar-protekcjonizm"><div class="text-wrapper" id="protekcjonizm"></div></div>
+    <div class="bar globalizm" id="bar-globalizm"><div class="text-wrapper" id="globalizm"></div></div>
+    <img id="img-globalizm" src="value_images/globalizm.svg" height="128pt"/>
+</div>
+
+<h2>PRAWO: <h2>
+
+<h2><span class="weight-300" id="law1-label"></span></h2>
+<div class="axis">
+    <img id="img-liberalizm" src="value_images/liberalizm.svg" height="128pt"/>
+    <div class="bar liberalizm" id="bar-liberalizm"><div class="text-wrapper" id="liberalizm"></div></div>
+    <div class="bar autorytaryzm" id="bar-autorytaryzm"><div class="text-wrapper" id="autorytaryzm"></div></div>
+    <img id="img-autorytaryzm" src="value_images/autorytaryzm.svg" height="128pt"/>
+</div>
+
+<h2><span class="weight-300" id="law2-label"></span></h2>
+<div class="axis">
+    <img id="img-demokracja" src="value_images/demokracja.svg" height="128pt"/>
+    <div class="bar demokracja" id="bar-demokracja"><div class="text-wrapper" id="demokracja"></div></div>
+    <div class="bar autorytet" id="bar-autorytet"><div class="text-wrapper" id="autorytet"></div></div>
+    <img id="img-autorytet" src="value_images/autorytet.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="law3-label"></span></h2>
+<div class="axis">
+    <img id="img-indywidualizm" src="value_images/indywidualizm.svg" height="128pt"/>
+    <div class="bar indywidualizm" id="bar-indywidualizm"><div class="text-wrapper" id="indywidualizm"></div></div>
+    <div class="bar kolektywizm" id="bar-kolektywizm"><div class="text-wrapper" id="kolektywizm"></div></div>
+    <img id="img-kolektywizm" src="value_images/kolektywizm.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="law4-label"></span></h2>
+<div class="axis">
+    <img id="img-pacyfizm" src="value_images/pacyfizm.svg" height="128pt"/>
+    <div class="bar pacyfizm" id="bar-pacyfizm"><div class="text-wrapper" id="pacyfizm"></div></div>
+    <div class="bar militaryzm" id="bar-militaryzm"><div class="text-wrapper" id="militaryzm"></div></div>
+    <img id="img-militaryzm" src="value_images/militaryzm.svg" height="128pt"/>
+</div>
+<h2>SPOŁECZEŃSTWO: </h2>
+<h2><span class="weight-300" id="society1-label"></span></h2>
+<div class="axis">
+    <img id="img-internacjonalizm" src="value_images/internacjonalizm.svg" height="128pt"/>
+    <div class="bar internacjonalizm" id="bar-internacjonalizm"><div class="text-wrapper" id="internacjonalizm"></div></div>
+    <div class="bar nacjonalizm" id="bar-nacjonalizm"><div class="text-wrapper" id="nacjonalizm"></div></div>
+    <img id="img-nacjonalizm" src="value_images/nacjonalizm.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="society2-label"></span></h2>
+<div class="axis">
+    <img id="img-progresywizm" src="value_images/progresywizm.svg" height="128pt"/>
+    <div class="bar progresywizm" id="bar-progresywizm"><div class="text-wrapper" id="progresywizm"></div></div>
+    <div class="bar konserwatyzm" id="bar-konserwatyzm"><div class="text-wrapper" id="konserwatyzm"></div></div>
+    <img id="img-konserwatyzm" src="value_images/konserwatyzm.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="society3-label"></span></h2>
+<div class="axis">
+    <img id="img-sekularyzm" src="value_images/sekularyzm.svg" height="128pt"/>
+    <div class="bar sekularyzm" id="bar-sekularyzm"><div class="text-wrapper" id="sekularyzm"></div></div>
+    <div class="bar teokracja" id="bar-teokracja"><div class="text-wrapper" id="teokracja"></div></div>
+    <img id="img-teokracja" src="value_images/teokracja.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="society4-label"></span></h2>
+<div class="axis">
+    <img id="img-ekologizm" src="value_images/ekologizm.svg" height="128pt"/>
+    <div class="bar ekologizm" id="bar-ekologizm"><div class="text-wrapper" id="ekologizm"></div></div>
+    <div class="bar produktywizm" id="bar-produktywizm"><div class="text-wrapper" id="produktywizm"></div></div>
+    <img id="img-produktywizm" src="value_images/produktywizm.svg" height="128pt"/>
+</div>
+
+<h2>PAŃSTWO: </h2>
+<h2><span class="weight-300" id="state1-label"></span></h2>
+
+<div class="axis">
+    <img id="img-rewolucjonizm" src="value_images/rewolucjonizm.svg" height="128pt"/>
+    <div class="bar rewolucjonizm" id="bar-rewolucjonizm"><div class="text-wrapper" id="rewolucjonizm"></div></div>
+    <div class="bar reformizm" id="bar-reformizm"><div class="text-wrapper" id="reformizm"></div></div>
+    <img id="img-reformizm" src="value_images/reformizm.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="state2-label"></span></h2>
+<div class="axis">
+    <img id="img-rehabilitacja" src="value_images/rehabilitacja.svg" height="128pt"/>
+    <div class="bar rehabilitacja" id="bar-rehabilitacja"><div class="text-wrapper" id="rehabilitacja"></div></div>
+    <div class="bar kara" id="bar-kara"><div class="text-wrapper" id="kara"></div></div>
+    <img id="img-kara" src="value_images/kara.svg" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="state3-label"></span></h2>
+<div class="axis">
+    <img id="img-federalizm" src="value_images/federalizm.svg" height="128pt"/>
+    <div class="bar federalizm" id="bar-federalizm"><div class="text-wrapper" id="federalizm"></div></div>
+    <div class="bar unitaryzm" id="bar-unitaryzm"><div class="text-wrapper" id="unitaryzm"></div></div>
+    <img id="img-unitaryzm" src="value_images/unitaryzm.svg" height="128pt"/>
+</div>
+<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
+<p>W przyszłości.</p>
+<p>mknkn</p>
+<hr/>
+<img src="" id="banner">
+<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Wstecz</button> <br>
+<script>
+    function getQueryVariable(variable)
+    {
+           var query = window.location.search.substring(1)
+           var vars = query.split("&")
+           for (var i=0;i<vars.length;i++) {
+                   var pair = vars[i].split("=")
+                   if(pair[0] == variable) {return pair[1]}
+           }
+           return(NaN);
+    }
+
+    function setBarValue(name, value) {
+        innerel = document.getElementById(name)
+        outerel = document.getElementById("bar-" + name)
+        outerel.style.width = (value + "%")
+        innerel.innerHTML = (value + "%")
+        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+            innerel.style.visibility = "hidden"
+        }
+    }
+
+    econ1Array = ["Socjalista","Socjaldemokrata","Społecznik","Centrysta","Rynkowiec","Kapitalista","Fanatyczny Kapitalista"]
+    econ2Array = ["Silny Regulacjonizm","Regulacjonizm","Lekki Regulacjonizm","Centrysta","Liberał Ekonomiczny","Wolnorynkowiec","Leseferysta"]
+    econ3Array = ["Aukaria","Protekcjonista","Wysokie Cła","Centrysta","Niskie cła","Wolny Handel","Globalna Ekonomia"]
+    law1Array = ["Anarchista","Libertarianin","Liberał","Centrysta","Etatysta","Autorytarysta","Totalitarysta"]
+    law2Array = ["Demokracja Bezpośrednia","Demokrata","Republikanin","Centrysta","Nomokrata/Merytokrata","Monarchista Konstytucyjny","Monarchista Absolutny"]
+    law3Array = ["Skrajny Indywidualista","Indywidualista","Egocentrysta","Centrysta","Współpraca","Mutualista","Kolektywista"]
+    law4Array = ["Skrajny Pacyfista","Pokojowy","Pokojowy","Centrysta","Agresywny","Militarysta","Ludobójca (Ziom, wszystko ok z tobą?)"]
+    society1Array = ["Kosmopolita","Internacjonalista","Dyplomata","Centrysta","Patriota","Nacjonalista","Szowinista"]
+    society2Array = ["Nowelista","Progresywista","Posyępowy","Centrysta","Konserwatysta","Tradycjonalista","Reakcjonista"]
+    society3Array = ["Ateista","Agnostyk","Sceptysta","Centrysta","Lekkiej Wiary","Wierzący","Opętany Religijnie"]
+    society4Array = ["Eko-Faszysta","Ekologista","Antyprodukcyjny","Centrysta","Pro-produkcyjny","Akceleracjonista","Transhumanista"]
+    state1Array = ["Fanatyczny Rewolucjonista","Rewolucjonista","Lekki Rewolucjonista","Centrysta","Umiarkowany Reformista","Mocny Reformista","Kompromisowiec"]
+	state2Array = ["Fanatyczna Rehabilitacja","Rehabilitacja","Lekko Rehabilitacja","Centrysta","Kara","Oko za oko","Bezlitosny"]
+	state3Array = ["Federalizm","Decentralizm","Regionalizm","Centrysta","Lekka Centralizacja","Silna Centralizacja","Unitarysta"]
+
+    function setLabel(val,ary) {
+        if (val > 100) { return "" } else
+        if (val > 90) { return ary[0] } else
+        if (val > 75) { return ary[1] } else
+        if (val > 60) { return ary[2] } else
+        if (val >= 40) { return ary[3] } else
+        if (val >= 25) { return ary[4] } else
+        if (val >= 10) { return ary[5] } else
+        if (val >= 0) { return ary[6] } else
+        	{return ""}
+    }
+
+    socjalizm  = getQueryVariable("a")
+    regulacjonizm     = getQueryVariable("b")
+    protekcjonizm   = getQueryVariable("c")
+    liberalizm  = getQueryVariable("d")
+    demokracja  = getQueryVariable("e")
+    indywidualizm     = getQueryVariable("f")
+    pacyfizm   = getQueryVariable("g")
+    internacjonalizm  = getQueryVariable("h")
+    progresywizm  = getQueryVariable("i")
+    sekularyzm     = getQueryVariable("j")
+    ekologizm   = getQueryVariable("k")
+    rewolucjonizm  = getQueryVariable("l")
+    rehabilitacja  = getQueryVariable("m")
+    federalizm     = getQueryVariable("n")
+    kapitalizm    = (100 - socjalizm).toFixed(1)
+    leseferyzm     = (100 - regulacjonizm   ).toFixed(1)
+    globalizm = (100 - protekcjonizm ).toFixed(1)
+    autorytaryzm = (100 - liberalizm).toFixed(1)
+    autorytet    = (100 - demokracja).toFixed(1)
+    kolektywizm     = (100 - indywidualizm   ).toFixed(1)
+    militaryzm = (100 - pacyfizm ).toFixed(1)
+    nacjonalizm = (100 - internacjonalizm).toFixed(1)
+    konserwatyzm    = (100 - progresywizm).toFixed(1)
+    teokracja     = (100 - sekularyzm   ).toFixed(1)
+    produktywizm = (100 - ekologizm ).toFixed(1)
+    reformizm = (100 - rewolucjonizm).toFixed(1)
+    kara    = (100 - rehabilitacja).toFixed(1)
+    unitaryzm     = (100 - federalizm   ).toFixed(1)
+
+    setBarValue("socjalizm", socjalizm)
+    setBarValue("kapitalizm", kapitalizm)
+    setBarValue("leseferyzm", leseferyzm)
+    setBarValue("regulacjonizm", regulacjonizm)
+    setBarValue("protekcjonizm", protekcjonizm)
+    setBarValue("globalizm", globalizm)
+    setBarValue("liberalizm", liberalizm)
+    setBarValue("autorytaryzm", autorytaryzm)
+    setBarValue("demokracja", demokracja)
+    setBarValue("autorytet", autorytet)
+    setBarValue("indywidualizm", indywidualizm)
+    setBarValue("kolektywizm", kolektywizm)
+    setBarValue("pacyfizm", pacyfizm)
+    setBarValue("militaryzm", militaryzm)
+    setBarValue("internacjonalizm", internacjonalizm)
+    setBarValue("nacjonalizm", nacjonalizm)
+    setBarValue("konserwatyzm", konserwatyzm)
+    setBarValue("progresywizm", progresywizm)
+    setBarValue("sekularyzm", sekularyzm)
+    setBarValue("teokracja", teokracja)
+    setBarValue("ekologizm", ekologizm)
+    setBarValue("produktywizm", produktywizm)
+    setBarValue("rewolucjonizm", rewolucjonizm)
+    setBarValue("reformizm", reformizm)
+    setBarValue("kara", kara)
+    setBarValue("rehabilitacja", rehabilitacja)
+    setBarValue("unitaryzm", unitaryzm)
+    setBarValue("federalizm", federalizm)
+
+    document.getElementById("economic1-label").innerHTML = setLabel(socjalizm, econ1Array)
+    document.getElementById("economic2-label").innerHTML = setLabel(regulacjonizm, econ2Array)
+    document.getElementById("economic3-label").innerHTML = setLabel(protekcjonizm, econ3Array)
+    document.getElementById("law1-label").innerHTML = setLabel(liberalizm, law1Array)
+    document.getElementById("law2-label").innerHTML = setLabel(demokracja, law2Array)
+    document.getElementById("law3-label").innerHTML = setLabel(indywidualizm, law3Array)
+    document.getElementById("law4-label").innerHTML = setLabel(pacyfizm, law4Array)
+    document.getElementById("society1-label").innerHTML = setLabel(internacjonalizm, society1Array)
+    document.getElementById("society2-label").innerHTML = setLabel(progresywizm, society2Array)
+    document.getElementById("society3-label").innerHTML = setLabel(sekularyzm, society3Array)
+    document.getElementById("society4-label").innerHTML = setLabel(ekologizm, society4Array)
+    document.getElementById("state1-label").innerHTML = setLabel(rewolucjonizm, state1Array)
+    document.getElementById("state2-label").innerHTML = setLabel(rehabilitacja, state2Array)
+    document.getElementById("state3-label").innerHTML = setLabel(federalizm, state3Array)
+
+    ideology = ""
+    ideodist = Infinity
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - socjalizm), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberalizm), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - internacjonalizm), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progresywizm), 1.73856063)
+        if (dist < ideodist) {
+            ideology = ideologies[i].name
+            ideodist = dist
+        }
+    }
+    document.getElementById("ideology-label").innerHTML = ideology
+
+    function createImage(src, x, y, w, h) {
+        img = new Image ()
+        img.src = src
+        img.onLoad = function() {
+            ctx.drawImage(img, x, y, w, h)
+        }
+    }
+
+    window.onload = function() {
+        var c = document.createElement("canvas")
+        var ctx = c.getContext("2d")
+        c.width = 800;
+        c.height = 650;
+        ctx.fillStyle = "#EEEEEE"
+        ctx.fillRect(0,0,800,650);
+
+         img = document.getElementById("img-socjalizm")
+        ctx.drawImage(img, 20, 170, 100, 100);
+        img = document.getElementById("img-kapitalizm")
+        ctx.drawImage(img, 680, 170, 100, 100)
+        img = document.getElementById("img-regulacjonizm")
+        ctx.drawImage(img, 20, 290, 100, 100)
+        img = document.getElementById("img-leseferyzm")
+        ctx.drawImage(img, 680, 290, 100, 100)
+        img = document.getElementById("img-protekcjonizm")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-globalizm")
+        ctx.drawImage(img, 680, 410, 100, 100)
+        img = document.getElementById("img-liberalizm")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-autorytaryzm")
+        ctx.drawImage(img, 680, 530, 100, 100)
+         img = document.getElementById("img-demokracja")
+        ctx.drawImage(img, 20, 170, 100, 100);
+        img = document.getElementById("img-autorytet")
+        ctx.drawImage(img, 680, 170, 100, 100)
+        img = document.getElementById("img-indywidualizm")
+        ctx.drawImage(img, 20, 290, 100, 100)
+        img = document.getElementById("img-kolektywizm")
+        ctx.drawImage(img, 680, 290, 100, 100)
+        img = document.getElementById("img-pacyfizm")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-militaryzm")
+        ctx.drawImage(img, 680, 410, 100, 100)
+        img = document.getElementById("img-internacjonalizm")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-nacjonalizm")
+        ctx.drawImage(img, 680, 530, 100, 100)
+         img = document.getElementById("img-progresywizm")
+        ctx.drawImage(img, 20, 170, 100, 100);
+        img = document.getElementById("img-konserwatyzm")
+        ctx.drawImage(img, 680, 170, 100, 100)
+        img = document.getElementById("img-sekularyzm")
+        ctx.drawImage(img, 20, 290, 100, 100)
+        img = document.getElementById("img-teokracja")
+        ctx.drawImage(img, 680, 290, 100, 100)
+        img = document.getElementById("img-ekologizm")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-produkcyjny")
+        ctx.drawImage(img, 680, 410, 100, 100)
+        img = document.getElementById("img-rewolucjonizm")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-reformizm")
+        ctx.drawImage(img, 680, 530, 100, 100)		
+        img = document.getElementById("img-rehabilitacja")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-kara")
+        ctx.drawImage(img, 680, 410, 100, 100)
+        img = document.getElementById("img-federalizm")
+        ctx.drawImage(img, 20, 530, 100, 100)
+        img = document.getElementById("img-unitaryzm")
+        ctx.drawImage(img, 680, 530, 100, 100)
+		
+        ctx.fillStyle="#222222"
+        ctx.fillRect(120, 180, 560, 80)
+        ctx.fillRect(120, 300, 560, 80)
+        ctx.fillRect(120, 420, 560, 80)
+        ctx.fillRect(120, 540, 560, 80)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*socjalizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*kapitalizm, 184, 5.6*kapitalizm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*regulacjonizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*leseferyzm, 184, 5.6*leseferyzm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*protekcjonizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*globalizm, 184, 5.6*globalizm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*liberalizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*autorytaryzm, 184, 5.6*autorytaryzm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*demokracja-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*autorytet, 184, 5.6*autorytet-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*indywidualizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*kolektywizm, 184, 5.6*kolektywizm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*pacyfizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*militaryzm, 184, 5.6*militaryzm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*internacjonalizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*nacjonalizm, 184, 5.6*nacjonalizm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*progresywizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*konserwatyzm, 184, 5.6*konserwatyzm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*sekularyzm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*teokracja, 184, 5.6*teokracja-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*ekologizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*produktywizm, 184, 5.6*produktywizm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*rewolucjonizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*reformizm, 184, 5.6*reformizm-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*rehabilitacja-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*kara, 184, 5.6*kara-2, 72)
+        ctx.fillStyle="#ff3232"
+        ctx.fillRect(120, 184, 5.6*federalizm-2, 72)
+        ctx.fillStyle="#00847f"
+        ctx.fillRect(682-5.6*unitaryzm, 184, 5.6*unitaryzm-2, 72)
+        ctx.fillStyle="#222222"
+        ctx.font="700 80px Montserrat"
+        ctx.textAlign="left"
+        ctx.fillText("8values", 20, 90)
+        ctx.font="50px Montserrat"
+        ctx.fillText(ideology, 20, 140)
+
+        ctx.textAlign="left"
+        if (socjalizm  > 30) {ctx.fillText(socjalizm + "%", 130, 237.5)}
+        if (regulacjonizm  > 30) {ctx.fillText(regulacjonizm + "%", 130, 357.5)}
+        if (protekcjonizm  > 30) {ctx.fillText(protekcjonizm + "%", 130, 477.5)}
+        if (liberalizm  > 30) {ctx.fillText(liberalizm + "%", 130, 597.5)}
+        if (demokracja  > 30) {ctx.fillText(demokracja + "%", 130, 717.5)}
+        if (indywidualizm  > 30) {ctx.fillText(indywidualizm + "%", 130, 837.5)}
+        if (pacyfizm  > 30) {ctx.fillText(pacyfizm + "%", 130, 977.5)}
+        if (internacjonalizm  > 30) {ctx.fillText(internacjonalizm + "%", 130, 1097.5)}
+        if (progresywizm  > 30) {ctx.fillText(progresywizm + "%", 130, 1217.5)}
+        if (sekularyzm  > 30) {ctx.fillText(sekularyzm + "%", 130, 1337.5)}
+        if (ekologizm  > 30) {ctx.fillText(ekologizm + "%", 130, 1457.5)}
+        if (rewolucjonizm  > 30) {ctx.fillText(rewolucjonizm + "%", 130, 1577.5)}
+        if (rehabilitacja  > 30) {ctx.fillText(rehabilitacja + "%", 130, 1697.5)}
+        if (federalizm  > 30) {ctx.fillText(federalizm + "%", 130, 1817.5)}
+        ctx.textAlign="right"
+        if (kapitalizm    > 30) {ctx.fillText(kapitalizm + "%", 670, 237.5)}
+        if (leseferyzm  > 30) {ctx.fillText(leseferyzm + "%", 670, 357.5)}
+        if (globalizm  > 30) {ctx.fillText(globalizm + "%", 670, 477.5)}
+        if (autorytaryzm  > 30) {ctx.fillText(autorytaryzm + "%", 670, 597.5)}
+        if (autorytet  > 30) {ctx.fillText(autorytet + "%", 670, 717.5)}
+        if (kolektywizm  > 30) {ctx.fillText(kolektywizm + "%", 670, 837.5)}
+        if (militaryzm  > 30) {ctx.fillText(militaryzm + "%", 670, 977.5)}
+        if (nacjonalizm  > 30) {ctx.fillText(nacjonalizm + "%", 670, 1097.5)}
+        if (konserwatyzm  > 30) {ctx.fillText(konserwatyzm + "%", 670, 1217.5)}
+        if (teokracja  > 30) {ctx.fillText(teokracja + "%", 670, 1337.5)}
+        if (produktywizm  > 30) {ctx.fillText(produktywizm + "%", 670, 1457.5)}
+        if (reformizm  > 30) {ctx.fillText(reformizm + "%", 670, 1577.5)}
+        if (kara  > 30) {ctx.fillText(kara + "%", 670, 1697.5)}
+        if (unitaryzm  > 30) {ctx.fillText(unitaryzm + "%", 670, 1817.5)}
+
+        ctx.font="300 30px Montserrat"
+        ctx.fillText("8values.github.io", 780, 60)
+		ctx.fillText(version, 780, 90)
+        ctx.textAlign="center"
+        ctx.fillText("Economic Axis: " + document.getElementById("economic1-label").innerHTML, 400, 175)
+        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+
+        document.getElementById("banner").src = c.toDataURL();
+    }
+    </script>
+</body>
