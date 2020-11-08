@@ -19,7 +19,7 @@ questions = [
         }
     },
     {
-        "question": "Ziemia nie powinna być obiektem do kupna i sprzedaży",
+        "question": "Ziemia nie powinna być obiektem do kupna i sprzedaży.",
         "effect": {
             "econ1": 15,
             "econ2": 0,
@@ -76,7 +76,7 @@ questions = [
         }
     },
     {
-	        "question": "Wewnętrzne sprzeczności kaptializmu są tak duże że system ten wkrótce upadnie.",
+	        "question": "Wewnętrzne sprzeczności kapitalizmu są tak duże, że system ten wkrótce upadnie.",
         "effect": {
             "econ1": 10,
             "econ2": 0,
@@ -304,7 +304,7 @@ questions = [
         }
     },
     {
-	        "question": "Państwo powinno zapewnić obywatelom stały dochód niezależnie od ich wydajności pracy",
+	        "question": "Państwo powinno zapewnić obywatelom stały dochód niezależnie od wydajności pracy.",
         "effect": {
             "econ1": 10,
             "econ2": 0,
@@ -323,7 +323,7 @@ questions = [
         }
     },
     {
-	        "question": "Socjalizm bez wolności to niewola i brutalność. Wolność bez socjalizmu to system przywilejów i niesprawiedliwość",
+	        "question": "Socjalizm bez wolności to niewola i brutalność. Wolność bez socjalizmu to system przywilejów i niesprawiedliwość.",
         "effect": {
             "econ1": 10,
             "econ2": 0,
@@ -342,7 +342,7 @@ questions = [
         }
     },
     {
-	        "question": "Nierówne relacje między właścicielami firm i ich pracownikami z natury stanowią wyzysk",
+	        "question": "Nierówne relacje między właścicielami firm i ich pracownikami z natury stanowią wyzysk.",
         "effect": {
             "econ1": 10,
             "econ2": 0,
@@ -361,7 +361,7 @@ questions = [
         }
     },
     {
-	        "question": "Emerytura to prywatna kwestia każdego obywatela i państwo nie powinno w to ingerować",
+	        "question": "Emerytura to prywatna kwestia każdego obywatela i państwo nie powinno w to ingerować.",
         "effect": {
             "econ1": 0,
             "econ2": -10,
@@ -380,7 +380,7 @@ questions = [
         }
     },
 	    {
-        "question": "W społeczeństwie istnieje nierozwiązywalny konflikt klas w którym zawsze jedna będzie dominować drugą.",
+        "question": "W społeczeństwie istnieje konflikt klas, w którym jedna będzie dominować drugą. Rozwiązać go można tylko poprzez równość ekonomiczną.",
         "effect": {
             "econ1": 10,
             "econ2": 0,
@@ -399,7 +399,7 @@ questions = [
         }
     },
     {
-        "question": "Austriacka szkoła ekonomii używająca inną metodologię niż inne szkoły ekonomiczne w ogóle nie powinna być uznawana za naukę",
+        "question": "Austriacka szkoła ekonomii, używająca inną metodologię niż inne szkoły ekonomiczne, w ogóle nie powinna być uznawana za naukę.",
         "effect": {
             "econ1": 0,
             "econ2": 10,
@@ -418,7 +418,7 @@ questions = [
         }
     },
     {
-        "question": "Dziedziczenie jest uzasadnioną przyczyną bogactwa",
+        "question": "Dziedziczenie jest uzasadnioną przyczyną bogactwa.",
         "effect": {
             "econ1": -10,
             "econ2": 0,
@@ -437,7 +437,7 @@ questions = [
         }
     },
     {
-	        "question": "Majątki nie powinny być opodatkowane",
+	        "question": "Majątki nie powinny być opodatkowane.",
         "effect": {
             "econ1": 0,
             "econ2": -10,
@@ -456,7 +456,7 @@ questions = [
         }
     },
     {
-	        "question": "Bank centralny nie powinien istnieć",
+	        "question": "Bank centralny nie powinien istnieć.",
         "effect": {
             "econ1": 0,
             "econ2": -10,
@@ -608,7 +608,7 @@ questions = [
         }
     },
     {
-        "question": "Podatki to kradzież i nigdy nie jest usprawiedliwiona",
+        "question": "Podatki to kradzież i nie powinny istnieć.",
         "effect": {
             "econ1": 15,
             "econ2": 15,
@@ -627,7 +627,7 @@ questions = [
         }
     },
     {
-	        "question": "Licencje, zezwolenia i związki zawodowe są niepotrzebnymi przeszkodami w prowadzeniu działalności gospodarczej",
+	        "question": "Licencje, zezwolenia i związki zawodowe są niepotrzebnymi przeszkodami w prowadzeniu działalności gospodarczej.",
         "effect": {
             "econ1": -5,
             "econ2": -10,
@@ -646,7 +646,7 @@ questions = [
         }
     },
     {
-	        "question": "Publicznie finansowane badania naukowe są lepsze od tych prowadzonych przez prywatne instytucje",
+	        "question": "Publicznie finansowane badania naukowe są lepsze od tych prowadzonych przez prywatne instytucje.",
         "effect": {
             "econ1": 10,
             "econ2": 10,
@@ -684,7 +684,7 @@ questions = [
         }
     },
     {
-	        "question": "Co korzystne dla dobrze prosperujących przedsiębiorstw, jest w efekcie korzystne dla nas wszystkich.",
+	        "question": "Co korzystne dla dobrze prosperujących przedsiębiorstw jest w efekcie korzystne dla nas wszystkich.",
         "effect": {
             "econ1": -10,
             "econ2": -10,
@@ -722,7 +722,7 @@ questions = [
         }
     },
     {
-	        "question": "Należy zakazać szerzenia publicznie radykalnych, szkodliwych ideologii",
+	        "question": "Należy zakazać szerzenia publicznie radykalnych, szkodliwych ideologii.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -760,7 +760,7 @@ questions = [
         }
     },
 	    {
-        "question": "Stosowanie mowy nienawiści powinno być karane",
+        "question": "Stosowanie mowy nienawiści powinno być karane.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -779,7 +779,7 @@ questions = [
         }
     },
     {
-        "question": "Obraza uczuć religijnych powinna być penalizowana",
+        "question": "Obraza uczuć religijnych powinna być penalizowana.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -817,7 +817,7 @@ questions = [
         }
     },
     {
-	        "question": "Pary LGBT powinny mieć równe prawa, razem z adopcja dzieci.",
+	        "question": "Pary LGBT powinny mieć równe prawa względem par heteroseksualnych, razem z adopcją dzieci.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -855,7 +855,7 @@ questions = [
         }
     },
     {
-	        "question": "Docelowo zalegalizowany powinien zostać każdy narkotyk",
+	        "question": "Docelowo zalegalizowany powinien zostać każdy narkotyk.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -874,7 +874,7 @@ questions = [
         }
     },
     {
-	        "question": "Należy znieść recepty i pozwolić społeczeństwu kupować co chcą",
+	        "question": "Należy znieść recepty i pozwolić społeczeństwu kupować to, czego tylko zechcą.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1045,7 +1045,7 @@ questions = [
         }
     },
     {
-	        "question": "Państwo powinno odpowiadać jedynie za ochronę praw jednostki",
+	        "question": "Państwo powinno odpowiadać jedynie za ochronę praw jednostki.",
         "effect": {
             "econ1": 0,
             "econ2": -10,
@@ -1083,7 +1083,7 @@ questions = [
         }
     },
 	{
-	        "question": "Instytucja policji jest źródłem nieuzasadnionej opresji obywateli dlatego powinna ona zostać gruntownie zreformowana lub zniesiona",
+	        "question": "Instytucja policji jest źródłem nieuzasadnionej opresji obywateli, dlatego powinna ona zostać gruntownie zreformowana lub zniesiona.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1159,7 +1159,7 @@ questions = [
         }
     },
 	    {
-        "question": "Ważne jest, by dzieci uczyły się akceptowania dyscypliny.",
+        "question": "Ważne jest, aby dzieci uczyły się akceptowania dyscypliny.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1178,7 +1178,7 @@ questions = [
         }
     },
     {
-        "question": "Powinien istnieć ustalony, nienaruszalny program dla wszystkich szkół",
+        "question": "Powinien istnieć ustalony, nienaruszalny program dla wszystkich szkół.",
         "effect": {
             "econ1": 0,
             "econ2": 10,
@@ -1216,7 +1216,7 @@ questions = [
         }
     },
     {
-	        "question": "Państwo powinno zakazać takie kierunki jak gender studies.",
+	        "question": "Państwo powinno zakazać kierunków takich jak np. gender studies.",
         "effect": {
             "econ1": 0,
             "econ2": 5,
@@ -1235,7 +1235,7 @@ questions = [
         }
     },
     {
-	        "question": "Jeżeli już istnieją uniwersytety państwowe to powinny być autonomiczne",
+	        "question": "Jeżeli już istnieją uniwersytety państwowe, to powinny być one autonomiczne.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1254,7 +1254,7 @@ questions = [
         }
     },
     {
-	        "question": "Ci, którzy krytykują rząd powinni zostać usunięci z kraju.",
+	        "question": "Ci, którzy krytykują rząd, powinni zostać usunięci z kraju.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1406,7 +1406,7 @@ questions = [
         }
     },
     {
-	        "question": "Państwo funkcjonowałoby lepiej gdyby jedna osoba sprawowała władze.",
+	        "question": "Państwo funkcjonowałoby lepiej, gdyby jedna osoba sprawowała władzę.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1444,7 +1444,7 @@ questions = [
         }
     },
     {
-	        "question": "Gdyby wybory zmieniały cokolwiek, to politycy dawno by je zdelegalizowali",
+	        "question": "Gdyby wybory zmieniały cokolwiek, to politycy dawno by je zdelegalizowali.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1634,7 +1634,7 @@ questions = [
         }
     },
     {
-	        "question": "Nawet jeżeli istnieje moralność obiektywna człowiek nie może jej poznać.",
+	        "question": "Nawet jeśli istnieje moralność obiektywna, człowiek nie może jej poznać.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1653,14 +1653,14 @@ questions = [
         }
     },
     {
-	        "question": "Nawet jeżeli istnieje moralność obiektywna człowiek nie może jej poznać",
+	        "question": "Wyznaczanie wspólnych celów to najlepsza miara postępu społecznego.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
             "law1": 0,
             "law2": 0,
-            "law3": 0,
+            "law3": -15,
             "law4": 0,
             "society1": 0,
             "society2": 0,
@@ -1732,7 +1732,7 @@ questions = [
         "question": "Żyj i pozwól żyć to najlepsza filozofia życiowa.",
         "effect": {
             "econ1": 0,
-            "econ2": -5,
+            "econ2": 0,
             "econ3": 0,
             "law1": 10,
             "law2": 0,
@@ -1919,7 +1919,7 @@ questions = [
         }
     },
 	    {
-        "question": "ONZ lub NATO powinno zaprowadzić demokracje w krajach niedemokratycznych.",
+        "question": "ONZ lub NATO powinno zaprowadzić demokrację w krajach niedemokratycznych.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1938,7 +1938,7 @@ questions = [
         }
     },
     {
-        "question": "Powinnismy rozwijać własne wojsko, zamiast skupiać się na sojuszach.",
+        "question": "Powinniśmy rozwijać własne wojsko zamiast skupiać się na sojuszach.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1957,7 +1957,7 @@ questions = [
         }
     },
     {
-        "question": "Silne wojsko daje nam wyższą pozycję wśród narodów",
+        "question": "Silne wojsko daje nam wyższą pozycję wśród narodów.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1976,7 +1976,7 @@ questions = [
         }
     },
     {
-	        "question": "Państwo powinno dążyć do uzyskania utraconych na przestrzeni lat ziem",
+	        "question": "Państwo powinno dążyć do uzyskania utraconych na przestrzeni lat ziem.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -1995,7 +1995,7 @@ questions = [
         }
     },
     {
-	        "question": "Wszystko w państwie, nic poza państwem, nic przeciw państwu",
+	        "question": "Wszystko w państwie, nic poza państwem, nic przeciwko państwu.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2014,7 +2014,7 @@ questions = [
         }
     },
     {
-	        "question": "Nikt nie wybiera swojego kraju urodzenia, więc nie ma powodów do dumy z tego.",
+	        "question": "Nikt nie wybiera swojego kraju urodzenia, więc nie ma żadnego powodu do dumy z pochodzenia.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2033,7 +2033,7 @@ questions = [
         }
     },
     {
-	        "question": "Jednolitość rasowa korzystnie wpływa na społeczeństwo",
+	        "question": "Jednolitość rasowa korzystnie wpływa na społeczeństwo.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2043,7 +2043,7 @@ questions = [
             "law3": 0,
             "law4": 0,
             "society1": -10,
-            "society2": 0,
+            "society2": -5,
             "society3": 0,
             "society4": 0,
             "state1": 0,
@@ -2052,7 +2052,7 @@ questions = [
         }
     },
     {
-	        "question": "Mniejszosci etniczne trudniej asymilują się z naszą kulturą, więc powinno ich być jak najmniej.",
+	        "question": "Mniejszości etniczne trudniej asymilują się z naszą kulturą, więc powinno ich być jak najmniej.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2062,7 +2062,7 @@ questions = [
             "law3": 0,
             "law4": 0,
             "society1": -10,
-            "society2": 0,
+            "society2": -5,
             "society3": 0,
             "society4": 0,
             "state1": 0,
@@ -2109,7 +2109,7 @@ questions = [
         }
     },
 	    {
-        "question": "UE powinna być jednym superpaństwem.",
+        "question": "Unia Europejska powinna być jednym superpaństwem.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2147,7 +2147,7 @@ questions = [
         }
     },
     {
-        "question": "ONZ nie powinna istnieć",
+        "question": "ONZ nie powinna istnieć.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2166,7 +2166,7 @@ questions = [
         }
     },
     {
-	        "question": "Zawsze będę stał po stronie mojego kraju niezależnie czy ma rację.",
+	        "question": "Zawsze będę stał po stronie mojego kraju, niezależnie od tego, czy ma rację.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2185,7 +2185,7 @@ questions = [
         }
     },
     {
-	        "question": "Zjednoczony rząd światowy byłby korzystny dla ludzkości",
+	        "question": "Zjednoczony rząd światowy byłby korzystny dla ludzkości.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2251,13 +2251,13 @@ questions = [
             "law2": 0,
             "law3": 0,
             "law4": 0,
-            "society1": 0,
+            "society1": -10,
             "society2": 0,
             "society3": 0,
             "society4": 0,
             "state1": 0,
             "state2": 0,
-            "state3": 0,
+            "state3": 5,
         }
     },
     {
@@ -2318,12 +2318,12 @@ questions = [
         }
     },
     {
-        "question": "Klauzula sumienia powinna zostać zniesiona",
+        "question": "Klauzula sumienia powinna zostać zniesiona.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
+            "law1": 5,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -2400,7 +2400,7 @@ questions = [
             "econ2": 0,
             "econ3": 0,
             "law1": 0,
-            "law2": 0,
+            "law2": -5,
             "law3": 0,
             "law4": 0,
             "society1": 0,
@@ -2416,8 +2416,8 @@ questions = [
 	        "question": "Internet powinien zostać zakazany.",
         "effect": {
             "econ1": 0,
-            "econ2": 5,
-            "econ3": 0,
+            "econ2": 0,
+            "econ3": 5,
             "law1": -10,
             "law2": 0,
             "law3": 0,
@@ -2458,7 +2458,7 @@ questions = [
             "econ3": 0,
             "law1": 0,
             "law2": 0,
-            "law3": -10,
+            "law3": -5,
             "law4": 0,
             "society1": -5,
             "society2": -10,
@@ -2494,9 +2494,9 @@ questions = [
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
+            "law1": -5,
             "law2": 0,
-            "law3": -10,
+            "law3": 0,
             "law4": 0,
             "society1": 0,
             "society2": 0,
@@ -2532,7 +2532,7 @@ questions = [
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
+            "law1": 5,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -2551,7 +2551,7 @@ questions = [
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
+            "law1": 5,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -2641,12 +2641,12 @@ questions = [
         }
     },
     {
-	        "question": "W obliczu obecnego zagrożenia klimatycznego koniecznie dla ludzkości jest znaczące ograniczenie produkcji i spożycia mięsa",
+	        "question": "W obliczu obecnego zagrożenia klimatycznego koniecznie dla ludzkości jest znaczące ograniczenie produkcji i spożycia mięsa.",
         "effect": {
             "econ1": 0,
             "econ2": 5,
             "econ3": 0,
-            "law1": -5,
+            "law1": 0,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -2684,7 +2684,7 @@ questions = [
             "econ1": 0,
             "econ2": 10,
             "econ3": 0,
-            "law1": 0,
+            "law1": -5,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -2760,7 +2760,7 @@ questions = [
             "econ1": 0,
             "econ2": 10,
             "econ3": 0,
-            "law1": 0,
+            "law1": -5,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -2793,7 +2793,7 @@ questions = [
         }
     },
 	    {
-	        "question": "Zwierzęta powinny mieć takie same prawa co ludzie",
+	        "question": "Zwierzęta powinny mieć takie same prawa, co ludzie.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -2822,9 +2822,9 @@ questions = [
             "law3": 0,
             "law4": 0,
             "society1": 0,
-            "society2": 10,
+            "society2": 5,
             "society3": 0,
-            "society4": 5,
+            "society4": 10,
             "state1": 0,
             "state2": 0,
             "state3": 0,
@@ -2916,7 +2916,7 @@ questions = [
             "law2": 0,
             "law3": 0,
             "law4": 0,
-            "society1": 0,
+            "society1": -5,
             "society2": 0,
             "society3": 0,
             "society4": 0,
@@ -2940,7 +2940,7 @@ questions = [
             "society3": 0,
             "society4": 0,
             "state1": 0,
-            "state2": 0,
+            "state2": 5,
             "state3": 0,
         }
     },
@@ -2971,14 +2971,14 @@ questions = [
             "econ3": 0,
             "law1": 0,
             "law2": 0,
-            "law3": 5,
+            "law3": -5,
             "law4": 0,
             "society1": 0,
             "society2": 0,
             "society3": 0,
             "society4": 0,
             "state1": 0,
-            "state2": -10,
+            "state2": -5,
             "state3": 0,
         }
     },
@@ -3104,7 +3104,7 @@ questions = [
             "econ3": 0,
             "law1": 0,
             "law2": 0,
-            "law3": 0,
+            "law3": 5,
             "law4": 0,
             "society1": 0,
             "society2": 0,
@@ -3159,7 +3159,7 @@ questions = [
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
+            "law1": -5,
             "law2": 0,
             "law3": 0,
             "law4": 0,
@@ -3178,8 +3178,8 @@ questions = [
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
-            "law2": -10,
+            "law1": -10,
+            "law2": -5,
             "law3": 0,
             "law4": 0,
             "society1": 0,
@@ -3197,8 +3197,8 @@ questions = [
             "econ1": 0,
             "econ2": 0,
             "econ3": 0,
-            "law1": 0,
-            "law2": 0,
+            "law1": -5,
+            "law2": -5,
             "law3": 0,
             "law4": 0,
             "society1": 0,
