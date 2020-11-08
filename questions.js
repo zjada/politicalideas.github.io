@@ -569,7 +569,6 @@ questions = [
             "state3": 0,
         }
     },
-    {
 	    {
         "question": "Własna waluta to podstawa suwerenności naszego kraju.",
         "effect": {
@@ -2299,7 +2298,6 @@ questions = [
             "state3": 0,
         }
     },
-    {
 	    {
         "question": "Różnice w rolach płciowych mogą być wytłumaczone biologią.",
         "effect": {
