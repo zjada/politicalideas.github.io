@@ -284,7 +284,7 @@
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,2100,1500)
+        ctx.fillRect(0,0,1700,1500)
 
         img = document.getElementById("img-socjalizm")
         ctx.drawImage(img, 20, 170, 100, 100);
@@ -420,8 +420,10 @@
         ctx.font="700 35px Rubik"
         ctx.textAlign="left"
         ctx.fillText("POLITICAL IDEAS", 20, 50)
+        ctx.fillText("[Miejsce na kompas, najbliższą partie, ideologię, wybitnego myśliciela i coś jeszcze]", 150, 1300)
         ctx.font="50px Rubik"
         ctx.fillText(ideology, 520, 50)
+
 
         ctx.textAlign="left"
         if (socjalizm  > 30) {ctx.fillText(socjalizm + "%", 130, 237.5)}
