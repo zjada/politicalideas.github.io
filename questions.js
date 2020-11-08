@@ -37,6 +37,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Państwo powinno walczyć z powstawaniem monopoli.",
         "effect": {
             "econ1": 0,
@@ -55,6 +56,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Konieczne jest, aby rząd ingerował w gospodarkę w celu ochrony konsumentów.",
         "effect": {
             "econ1": 0,
@@ -73,6 +75,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Wewnętrzne sprzeczności kaptializmu są tak duże że system ten wkrótce upadnie.",
         "effect": {
             "econ1": 10,
@@ -91,6 +94,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Rosnące nierówności są jednym z największych zagrożeń dla świata.",
         "effect": {
             "econ1": 10,
@@ -109,6 +113,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Mieszkanie jest przyrodzonym prawem człowieka, a nie towarem.",
         "effect": {
             "econ1": 10,
@@ -127,6 +132,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Pracodawca nie jest wrogiem pracownika. Wrogiem jest inny pracownik stanowiący konkurencję na rynku pracy.",
         "effect": {
             "econ1": -10,
@@ -145,6 +151,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo powinno zapewniać wszystkim artykuły wymagane do przetrwania jak np. jedzenie czy wodę.",
         "effect": {
             "econ1": 10,
@@ -163,6 +170,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Na służbę zdrowia popyt jest nieograniczony, dlatego niebezpieczne jest to zostawiać rynkowi.",
         "effect": {
             "econ1": 5,
@@ -219,6 +227,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Brak gospodarki wolnorynkowej nieuchronnie doprowadzi do ograniczenia praw osobistych.",
         "effect": {
             "econ1": -10,
@@ -237,6 +246,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Nacjonalizacja banków jest dobrym rozwiązaniem.",
         "effect": {
             "econ1": 10,
@@ -255,6 +265,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Od każdego według możliwości, dla każdego według potrzeb.",
         "effect": {
             "econ1": 10,
@@ -273,6 +284,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Środki produkcji powinny kolektywnie należeć do pracowników, którzy ich używają.",
         "effect": {
             "econ1": 15,
@@ -291,6 +303,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo powinno zapewnić obywatelom stały dochód niezależnie od ich wydajności pracy",
         "effect": {
             "econ1": 10,
@@ -309,6 +322,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Socjalizm bez wolności to niewola i brutalność. Wolność bez socjalizmu to system przywilejów i niesprawiedliwość",
         "effect": {
             "econ1": 10,
@@ -327,6 +341,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Nierówne relacje między właścicielami firm i ich pracownikami z natury stanowią wyzysk",
         "effect": {
             "econ1": 10,
@@ -345,6 +360,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Emerytura to prywatna kwestia każdego obywatela i państwo nie powinno w to ingerować",
         "effect": {
             "econ1": 0,
@@ -401,6 +417,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Dziedziczenie jest uzasadnioną przyczyną bogactwa",
         "effect": {
             "econ1": -10,
@@ -419,6 +436,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Majątki nie powinny być opodatkowane",
         "effect": {
             "econ1": 0,
@@ -437,6 +455,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Bank centralny nie powinien istnieć",
         "effect": {
             "econ1": 0,
@@ -455,6 +474,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Wysokości mandatów powinny być uzależnione od zarobków.",
         "effect": {
             "econ1": 5,
@@ -473,6 +493,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Cła są dobrym sposobem, aby chronić miejsca pracy w moim kraju.",
         "effect": {
             "econ1": 0,
@@ -491,6 +512,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Korzyści z wolnego handlu są większe niż szkody.",
         "effect": {
             "econ1": 0,
@@ -509,6 +531,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Imigranci ekonomiczni są korzystni dla gospodarki.",
         "effect": {
             "econ1": 0,
@@ -527,6 +550,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Rząd powinien chronić krajowych przedsiębiorców przed zagraniczną konkurencją.",
         "effect": {
             "econ1": 0,
@@ -545,6 +569,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	    {
         "question": "Własna waluta to podstawa suwerenności naszego kraju.",
         "effect": {
@@ -583,6 +608,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Podatki to kradzież i nigdy nie jest usprawiedliwiona",
         "effect": {
             "econ1": 15,
@@ -601,6 +627,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Licencje, zezwolenia i związki zawodowe są niepotrzebnymi przeszkodami w prowadzeniu działalności gospodarczej",
         "effect": {
             "econ1": -5,
@@ -619,6 +646,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Publicznie finansowane badania naukowe są lepsze od tych prowadzonych przez prywatne instytucje",
         "effect": {
             "econ1": 10,
@@ -637,6 +665,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Bezrobocie jest skutkiem niewystarczającego popytu.",
         "effect": {
             "econ1": 0,
@@ -655,6 +684,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Co korzystne dla dobrze prosperujących przedsiębiorstw, jest w efekcie korzystne dla nas wszystkich.",
         "effect": {
             "econ1": -10,
@@ -673,6 +703,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Każdy ma prawo dysponować swoim majątkiem jak chce, więc gry hazardowe powinny być legalne.",
         "effect": {
             "econ1": 0,
@@ -691,6 +722,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Należy zakazać szerzenia publicznie radykalnych, szkodliwych ideologii",
         "effect": {
             "econ1": 0,
@@ -709,6 +741,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "O symbolach religijnych w szkołach i urzędach powinien decydować dyrektor lub właściciel.",
         "effect": {
             "econ1": 0,
@@ -765,6 +798,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Jeżeli małżeństwa państwowe istnieją, to powinny być dostępne dla par homoseksualnych.",
         "effect": {
             "econ1": 0,
@@ -783,6 +817,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Pary LGBT powinny mieć równe prawa, razem z adopcja dzieci.",
         "effect": {
             "econ1": 0,
@@ -801,6 +836,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Marihuana powinna być legalna.",
         "effect": {
             "econ1": 0,
@@ -819,6 +855,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Docelowo zalegalizowany powinien zostać każdy narkotyk",
         "effect": {
             "econ1": 0,
@@ -837,6 +874,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Należy znieść recepty i pozwolić społeczeństwu kupować co chcą",
         "effect": {
             "econ1": 0,
@@ -855,6 +893,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Małżeństwa państwowe nie powinny istnieć.",
         "effect": {
             "econ1": 0,
@@ -873,6 +912,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Każdy powinien mieć prawo do posiadania broni.",
         "effect": {
             "econ1": 0,
@@ -891,6 +931,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Rząd powinien mieć większe prawo do ingerencji w życie obywateli.",
         "effect": {
             "econ1": 0,
@@ -947,6 +988,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Inwigilacja obywateli jest konieczna.",
         "effect": {
             "econ1": 0,
@@ -965,6 +1007,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Chcącemu nie dzieje się krzywda.",
         "effect": {
             "econ1": 0,
@@ -983,6 +1026,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Rząd jest zagrożeniem dla wolności.",
         "effect": {
             "econ1": 0,
@@ -1001,6 +1045,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo powinno odpowiadać jedynie za ochronę praw jednostki",
         "effect": {
             "econ1": 0,
@@ -1019,6 +1064,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Autorytety są korzystne dla społeczeństwa.",
         "effect": {
             "econ1": 0,
@@ -1037,6 +1083,7 @@ questions = [
             "state3": 0,
         }
     },
+	{
 	        "question": "Instytucja policji jest źródłem nieuzasadnionej opresji obywateli dlatego powinna ona zostać gruntownie zreformowana lub zniesiona",
         "effect": {
             "econ1": 0,
@@ -1055,6 +1102,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Każdy autorytet powinien być kwestionowany.",
         "effect": {
             "econ1": 0,
@@ -1073,6 +1121,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Szkoły nie powinny wymagać obowiązkowej obecności na lekcjach.",
         "effect": {
             "econ1": 0,
@@ -1091,6 +1140,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Ludzie z wadami dziedzicznymi nie powinni mieć prawa do posiadania potomstwa.",
         "effect": {
             "econ1": 0,
@@ -1147,6 +1197,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Studia powinny być finansowane przez państwo.",
         "effect": {
             "econ1": 10,
@@ -1165,6 +1216,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo powinno zakazać takie kierunki jak gender studies.",
         "effect": {
             "econ1": 0,
@@ -1183,6 +1235,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Jeżeli już istnieją uniwersytety państwowe to powinny być autonomiczne",
         "effect": {
             "econ1": 0,
@@ -1201,6 +1254,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Ci, którzy krytykują rząd powinni zostać usunięci z kraju.",
         "effect": {
             "econ1": 0,
@@ -1219,6 +1273,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Policja powinna mieć więcej władzy oraz ochrony.",
         "effect": {
             "econ1": 0,
@@ -1237,6 +1292,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "To ważne, żeby utrzymywać prawo i porządek.",
         "effect": {
             "econ1": 0,
@@ -1255,6 +1311,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Rząd nie ma żadnego interesu w zaglądaniu do życia prywatnego większości ludzi.",
         "effect": {
             "econ1": 0,
@@ -1273,6 +1330,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Policja powinna być bardziej regulowana.",
         "effect": {
             "econ1": 0,
@@ -1329,6 +1387,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Demokracja to de facto tyrania większości nad mniejszością, co jest jej istotną wadą",
         "effect": {
             "econ1": 0,
@@ -1347,6 +1406,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo funkcjonowałoby lepiej gdyby jedna osoba sprawowała władze.",
         "effect": {
             "econ1": 0,
@@ -1365,6 +1425,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "System jednopartyjny jest korzystny.",
         "effect": {
             "econ1": 0,
@@ -1383,6 +1444,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Gdyby wybory zmieniały cokolwiek, to politycy dawno by je zdelegalizowali",
         "effect": {
             "econ1": 0,
@@ -1401,6 +1463,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Wielkim plusem jednopartyjnego systemu jest brak dyskusji opóźniających postęp w systemach demokratycznych.",
         "effect": {
             "econ1": 0,
@@ -1419,6 +1482,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Demokracja bezpośrednia jest najlepszą formą rządów.",
         "effect": {
             "econ1": 0,
@@ -1437,6 +1501,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Ludzie sami powinni głosować nad każdym problemem.",
         "effect": {
             "econ1": 0,
@@ -1455,6 +1520,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "To ważne, by rząd postępował zgodnie z opinią większości, nawet jeśli jest błędna.",
         "effect": {
             "econ1": 0,
@@ -1511,6 +1577,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Większość populacji podejmuje złe decyzje.",
         "effect": {
             "econ1": 0,
@@ -1529,6 +1596,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Naród musi bezwarunkowo słuchać przywództwa.",
         "effect": {
             "econ1": 0,
@@ -1547,6 +1615,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Moralność jest subiektywna.",
         "effect": {
             "econ1": 0,
@@ -1565,6 +1634,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Nawet jeżeli istnieje moralność obiektywna człowiek nie może jej poznać.",
         "effect": {
             "econ1": 0,
@@ -1583,6 +1653,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Nawet jeżeli istnieje moralność obiektywna człowiek nie może jej poznać",
         "effect": {
             "econ1": 0,
@@ -1601,6 +1672,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Dobro jednostki jest ważniejsze od dobra ogółu.",
         "effect": {
             "econ1": 0,
@@ -1619,6 +1691,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Ostatecznie jesteśmy nieistotni jako jednostki, tylko nasze wysiłki na rzecz grupy mają trwały efekt.",
         "effect": {
             "econ1": 0,
@@ -1637,6 +1710,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Powinniśmy skupić się na jednostkach, a nie na tożsamościach grupowych.",
         "effect": {
             "econ1": 0,
@@ -1693,6 +1767,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Ograniczenie praw jednostki jest w porządku, jeśli społeczność na tym skorzysta.",
         "effect": {
             "econ1": 0,
@@ -1711,6 +1786,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Nie mamy prawa ingerować militarnie w innych państwach.",
         "effect": {
             "econ1": 0,
@@ -1729,6 +1805,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Ważniejsze jest utrzymać pokojowe relacje niż rozwijać naszą siłę.",
         "effect": {
             "econ1": 0,
@@ -1747,6 +1824,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Powinna być obowiązkowa służba wojskowa.",
         "effect": {
             "econ1": 0,
@@ -1765,6 +1843,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Tylko ci, którzy służyli w wojsku powinni być uprawnieni do posiadania wpływu na to, kto jest u władzy.",
         "effect": {
             "econ1": 0,
@@ -1783,6 +1862,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Wojna jest konieczna, żeby ekonomia dobrze się rozwijała.",
         "effect": {
             "econ1": 0,
@@ -1801,6 +1881,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Dyplomacja tylko szkodzi państwom.",
         "effect": {
             "econ1": 0,
@@ -1819,6 +1900,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Sojusze są ważne, żeby chronić państwo.",
         "effect": {
             "econ1": 0,
@@ -1875,6 +1957,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Silne wojsko daje nam wyższą pozycję wśród narodów",
         "effect": {
             "econ1": 0,
@@ -1893,6 +1976,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo powinno dążyć do uzyskania utraconych na przestrzeni lat ziem",
         "effect": {
             "econ1": 0,
@@ -1911,6 +1995,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Wszystko w państwie, nic poza państwem, nic przeciw państwu",
         "effect": {
             "econ1": 0,
@@ -1929,6 +2014,7 @@ questions = [
             "state3": -10,
         }
     },
+    {
 	        "question": "Nikt nie wybiera swojego kraju urodzenia, więc nie ma powodów do dumy z tego.",
         "effect": {
             "econ1": 0,
@@ -1947,6 +2033,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Jednolitość rasowa korzystnie wpływa na społeczeństwo",
         "effect": {
             "econ1": 0,
@@ -1965,6 +2052,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Mniejszosci etniczne trudniej asymilują się z naszą kulturą, więc powinno ich być jak najmniej.",
         "effect": {
             "econ1": 0,
@@ -1983,6 +2071,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Unia Europejska powinna mieć mniejszy wpływ na państwa członkowskie.",
         "effect": {
             "econ1": 0,
@@ -2001,6 +2090,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Państwo nie powinno przyjmować uchodźców z krajów obcych kulturowo.",
         "effect": {
             "econ1": 0,
@@ -2057,6 +2147,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "ONZ nie powinna istnieć",
         "effect": {
             "econ1": 0,
@@ -2075,6 +2166,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Zawsze będę stał po stronie mojego kraju niezależnie czy ma rację.",
         "effect": {
             "econ1": 0,
@@ -2093,6 +2185,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Zjednoczony rząd światowy byłby korzystny dla ludzkości",
         "effect": {
             "econ1": 0,
@@ -2111,6 +2204,7 @@ questions = [
             "state3": -10,
         }
     },
+    {
 	        "question": "Moje państwo powinno trzymać się z dala od relacji międzynarodowych.",
         "effect": {
             "econ1": 0,
@@ -2129,6 +2223,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Pomoc międzynarodowa to strata pieniędzy.",
         "effect": {
             "econ1": 0,
@@ -2147,6 +2242,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Nie powinno być praw międzynarodowych.",
         "effect": {
             "econ1": 0,
@@ -2165,6 +2261,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Kobiety mają równe prawa, więc protesty feministek nie mają sensu.",
         "effect": {
             "econ1": 0,
@@ -2183,6 +2280,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Aborcja to morderstwo.",
         "effect": {
             "econ1": 0,
@@ -2201,6 +2299,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	    {
         "question": "Różnice w rolach płciowych mogą być wytłumaczone biologią.",
         "effect": {
@@ -2239,6 +2338,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Matki mogą robić karierę, ale ich głównym obowiązkiem jest zajmowanie się domem.",
         "effect": {
             "econ1": 0,
@@ -2257,6 +2357,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Tradycja po prostu przeszkadza w postępie technologicznym.",
         "effect": {
             "econ1": 0,
@@ -2275,6 +2376,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Gonić postęp za każdą cenę jest niebezpieczne.",
         "effect": {
             "econ1": 0,
@@ -2293,6 +2395,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Starsi w społeczeństwie znają dla niego najlepszą drogę.",
         "effect": {
             "econ1": 0,
@@ -2311,6 +2414,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Internet powinien zostać zakazany.",
         "effect": {
             "econ1": 0,
@@ -2329,6 +2433,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Społeczeństwo powinno kultywować dawne tradycje.",
         "effect": {
             "econ1": 0,
@@ -2347,6 +2452,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Tradycja jest ważna w spajaniu narodu.",
         "effect": {
             "econ1": 0,
@@ -2365,6 +2471,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Kościół powinien zostać opodatkowany.",
         "effect": {
             "econ1": 0,
@@ -2421,6 +2528,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Każda religia musi być postrzegana równo przez rząd.",
         "effect": {
             "econ1": 0,
@@ -2439,6 +2547,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Musi istnieć rozdział pomiędzy kościołem i państwem.",
         "effect": {
             "econ1": 0,
@@ -2457,6 +2566,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Dzieci powinny być edukowane w wartościach religijych.",
         "effect": {
             "econ1": 0,
@@ -2475,6 +2585,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Moje wartości religijne powinny być rozprzestrzenione tak bardzo, jak możliwe.",
         "effect": {
             "econ1": 0,
@@ -2493,6 +2604,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Większość złych rzeczy zdarzających się na świecie jest spowodowana przez nasze oddalanie się od religii.",
         "effect": {
             "econ1": 0,
@@ -2511,6 +2623,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Rząd ma prawo uprzywilejować jedną religię.",
         "effect": {
             "econ1": 0,
@@ -2529,6 +2642,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "W obliczu obecnego zagrożenia klimatycznego koniecznie dla ludzkości jest znaczące ograniczenie produkcji i spożycia mięsa",
         "effect": {
             "econ1": 0,
@@ -2547,6 +2661,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
 	        "question": "Należy walczyć z globalnym ociepleniem.",
         "effect": {
             "econ1": 0,
@@ -2603,6 +2718,7 @@ questions = [
             "state3": 0,
         }
     },
+    {
         "question": "Gdyby pojawiła się możliwość czerpania energii z fuzji jądrowych byłoby to preferowane przeze mnie źródło energii.",
         "effect": {
             "econ1": 0,
@@ -2621,6 +2737,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Człowiek przywiązuje obecnie zbyt dużą wagę do ochrony środowiska.",
         "effect": {
             "econ1": 0,
@@ -2639,6 +2756,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Powinny istnieć surowe prawa związane z ekologią i emisją CO2 i gazów cieplarnianych",
         "effect": {
             "econ1": 0,
@@ -2657,6 +2775,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Państwo powinno dofinansowywać zakup przedmiotów pro-ekologicznych w celu zachęcenia do walki z globalnym ociepleniem.",
         "effect": {
             "econ1": 10,
@@ -2675,6 +2794,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Zwierzęta powinny mieć takie same prawa co ludzie",
         "effect": {
             "econ1": 0,
@@ -2693,6 +2813,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Hodowla zwierząt na futro powinna być zakazana.",
         "effect": {
             "econ1": 0,
@@ -2711,6 +2832,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Cel uświęca środki.",
         "effect": {
             "econ1": 0,
@@ -2729,6 +2851,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Rewolucja to najlepszy sposób na osiągnięcie idealnego społeczeństwa.",
         "effect": {
             "econ1": 0,
@@ -2785,6 +2908,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
         "question": "Narody uciskane mają prawo wziąć udział w gwałtownym powstaniu, gdy wszystkie inne możliwości zostały wyczerpane.",
         "effect": {
             "econ1": 0,
@@ -2803,6 +2927,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Oko za oko uczyni cały świat ślepym.",
         "effect": {
             "econ1": 0,
@@ -2821,6 +2946,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Ważniejsza od odbycia kary jest resocjalizacja.",
         "effect": {
             "econ1": 0,
@@ -2839,6 +2965,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Więźniowie powinni pracować na swoje utrzymanie podczas odbywania wyroku.",
         "effect": {
             "econ1": 0,
@@ -2857,6 +2984,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Kara śmierci powinna być stosowana za najgorsze wykroczenia.",
         "effect": {
             "econ1": 0,
@@ -2875,6 +3003,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Stratą czasu jest próba resocjalizacji niektórych przestępców.",
         "effect": {
             "econ1": 0,
@@ -2893,6 +3022,7 @@ questions = [
             "state3": 0,
         }
     },
+	    {
 	        "question": "Prawa stanowe oraz lokalne powinny mieć pierwszeństwo nad prawami narodowymi.",
         "effect": {
             "econ1": 0,
@@ -2911,6 +3041,7 @@ questions = [
             "state3": 10,
         }
     },
+	    {
 	        "question": "Ogólnokrajowy rząd nie jest w stanie zrozumieć, czego ludzie potrzebują.",
         "effect": {
             "econ1": 0,
@@ -2967,6 +3098,7 @@ questions = [
             "state3": 10,
         }
     },
+	    {
         "question": "Prawa powinny się różnić w zależności od regionu oraz kultury w granicach kraju.",
         "effect": {
             "econ1": 0,
@@ -2985,6 +3117,7 @@ questions = [
             "state3": 10,
         }
     },
+	    {
 	        "question": "Władze lokalne zajmują się problemami, którymi rząd ogólnokrajowy bez ich pomocy nigdy by się nie zainteresował.",
         "effect": {
             "econ1": 0,
@@ -3003,6 +3136,7 @@ questions = [
             "state3": 10,
         }
     },
+	    {
 	        "question": "Kraj nie może funkcjonować bez ogólnokrajowego rządu.",
         "effect": {
             "econ1": 0,
@@ -3021,6 +3155,7 @@ questions = [
             "state3": -10,
         }
     },
+	    {
 	        "question": "Jest wiele problemów, których nie ma sensu zawierzać władzom lokalnym.",
         "effect": {
             "econ1": 0,
@@ -3039,6 +3174,7 @@ questions = [
             "state3": -10,
         }
     },
+	    {
 	        "question": "Rząd ogólnokrajowy musi być silny, żeby adekwatnie chronić wszystkich swoich obywateli.",
         "effect": {
             "econ1": 0,
@@ -3057,6 +3193,7 @@ questions = [
             "state3": -10,
         }
     },
+	    {
 	        "question": "Silne władze stanowe osłabiają kraj",
         "effect": {
             "econ1": 0,
@@ -3074,5 +3211,5 @@ questions = [
             "state2": 0,
             "state3": -10,
         }
-    },
+    }
 ];
