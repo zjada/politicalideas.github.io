@@ -1824,7 +1824,7 @@ questions = [
         }
     },
     {
-	        "question": "Powinna być obowiązkowa służba wojskowa.",
+	        "question": "Służba wojskowa powinna być obowiązkowa.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
