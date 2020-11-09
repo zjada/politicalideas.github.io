@@ -432,7 +432,7 @@ ideologies = [
         }
     },
     {
-        "name": "Obiektywizm",
+        "name": "Monetaryzm",
         "stats": {
             "econ": 15,
             "dipl": 50,
