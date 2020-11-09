@@ -417,9 +417,9 @@ ideologies = [
         "name": "Kapitalizm libertariański",
         "stats": {
             "econ": 20,
-            "dipl": 50,
+            "dipl": 80,
             "govt": 80,
-            "scty": 60
+            "scty": 80
         }
     },
     {
