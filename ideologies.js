@@ -434,9 +434,9 @@ ideologies = [
     {
         "name": "Obiektywizm",
         "stats": {
-            "econ": 10,
+            "econ": 15,
             "dipl": 50,
-            "govt": 90,
+            "govt": 85,
             "scty": 55
         }
     },
