@@ -2,7 +2,15 @@ html {
     background-color: #ffffff;
     padding: 0px;
 }
-
+.dol {
+    width: 100%;
+    background-color: #dddddd;
+  position: relative;
+      height: 8%;
+}
+.container {
+  position: relative;
+}
 p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
@@ -11,9 +19,11 @@ p {
     margin: 4pt;
 }
 p.podpis {
+
     font-family: 'Rubik', sans-serif;
     text-indent: -16pt;
     color: #00647f;
+    min-height: 144pt;
     margin-left: 20pt;
 	text-align: center;
 }
@@ -77,7 +87,16 @@ img.main {
     width: 100.402%;
     min-width: 500pt;
     text-align: center;
+
 }
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
 .button {
     background-color: #00647f;
     font-family: 'Rubik', sans-serif;
@@ -93,6 +112,26 @@ img.main {
     font-size: 24pt;
     margin: -2px auto;
     cursor: pointer;
+}
+.buttoncenter {
+    background-color: #00647f;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 50%;
+    min-width: 500pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: -2px auto;
+    cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .small_button, .small_button_off {
     background-color: #00495b;
