@@ -2,6 +2,15 @@ html {
     background-color: #ffffff;
     padding: 0px;
 }
+body {
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+}
+
 p.value-description {
     text-indent: -16pt;
     font-size: 22pt;
